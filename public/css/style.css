@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: arial;
+}
+
+.top-nav {
+    display: block;
+}
+.top-nav ul {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2%;
+    right: 6%;
+}
+.top-nav ul li {
+    display: inline-block;
+    margin-left: 26px;
+}
+.top-nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+.top-nav ul li a:hover {
+    color: #c2c2c2;
+    transition: 0.3secs ease-in;
+}
+#section-landing {
+    background: url('../img/pixabay.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.section-text {
+    top: 40%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+.login {
+    padding: 6px 24px;
+    border: 1px solid white;
+}
+.section-text h1 {
+    font-weight: 100;
+    font-size: 48px;
+    margin: 0 auto;
+    color: #f1f1f1;
+}
+.section-text h2 {
+    font-weight: 100;
+    font-size: 42px;
+    margin: 0 auto;
+    color: #c2c2c2;
+}
+.login-nav {
+    background-color: #000000;
+    height: 70px;
+    width: 100%;
+}
+.section {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    top: 20%;
+    text-align: center;
+}
+.section h2 {
+    font-size: 2rem;
+}
+.section-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+.section-wrapper input{
+    position: relative;
+    width: 200px;
+    height: 30px;
+    font-size: 1.3rem;
+    margin: 20px auto;
+    display: block;
+    border: 1px solid #ccccc;
+    background-color: #f1f1f1;
+}
+.section-wrapper button{
+    position: relative;
+    width: 200px;
+    height: 30px;
+    font-size: 1.3rem;
+    margin: 20px auto;
+    display: block;
+    border: 1px solid #000000;
+    background-color: #000000;
+    color: #ffffff;
+}
+.section-wrapper button:hover {
+    background-color: #a1a1a1;
+    transition: 0.3secs ease-in;
+}
+input::placeholder {
+    font-size: 1rem;
+    color: #a1a1a1 ;
+}
+.option {
+    font-weight: 100;
+    font-size: 1.5rempx;
+}
+.option a {
+    text-decoration: none;
+    color: #006464;
+}
+.option a:hover {
+    color: #a1a1a1;
+    transition: 0.3secs ease-in;
+}
+.error-message {
+    color: #ff0000;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    font-family: arial;
+}
+
+
+
+
